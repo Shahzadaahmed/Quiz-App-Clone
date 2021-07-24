@@ -1,0 +1,276 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+/* Main App Component */
+#app-container {
+  border: 5px double darkblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  color: navy;
+  text-shadow: 0px 2px 5px blue;
+  text-align: center;
+}
+
+#start-btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+}
+
+#start-btn:hover {
+  color: navy;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+/* Main App Component styling completed */
+
+/* Sign Up and Log In Component */
+
+#sign-up-container {
+  border: 5px double navy;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#sign-up-header {
+  text-align: center;
+  color: navy;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 50%;
+}
+
+.sign-up-form {
+  border: 2px solid navy;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding-left: 10px;
+}
+
+#sign-up-btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+}
+
+#sign-up-btn:hover {
+  color: navy;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+/* Sign Up and Log In Component styling completed */
+
+/* Select Quiz Cmponent */
+
+#select-quiz-container {
+  border: 5px double darkblue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.select-quiz-header {
+  text-align: center;
+  color: navy;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.quiz-dropdown {
+  border: 2px solid blue;
+  border-radius: 5px;
+  width: 20%;
+  color: darkblue;
+  font-size: 18px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  outline: 0;
+}
+
+/* Select Quiz Cmponent styling completed */
+
+/* Quiz Dashboard Component */
+
+#dashboard-container {
+  border: 5px double darkblue;
+  margin-top: 6%;
+}
+
+.dashboard-header {
+  text-align: center;
+  color: navy;
+  text-decoration: underline;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+#dashboard-container li {
+  color: blue;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 20px;
+}
+
+#go-btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+}
+
+#go-btn:hover {
+  color: navy;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+#quiz-start-btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+}
+
+#quiz-start-btn:hover {
+  color: navy;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+#key-fieldbar {
+  color: blue;
+  font-weight: bold;
+  font-size: 20px;
+  border: 1px solid blue;
+}
+
+/* Quiz Dashboard Component styling completed */
+
+/* Quiz Component */
+
+#quiz-container {
+  border: 5px double darkblue;
+  color: blue;
+  margin-top: 5%;
+}
+
+.timer-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.timer-container h4 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  color: red;
+  text-decoration: underline;
+}
+
+.quiz-header {
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  text-decoration: underline;
+  margin-top: 20px;
+}
+
+.question-area {
+  border-bottom: 2px solid darkblue;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin-top: 40px;
+}
+
+.options-container {
+  margin-top: 20px;;
+}
+
+.radio-box {
+  background-color: lightblue;
+  border: 1px solid darkblue;
+  border-radius: 30px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 18px;
+  padding: 5px;
+  width: 100%;
+  cursor: pointer;
+}
+
+.radio-box span {
+  margin-left: 10px;
+}
+
+.next-question-btn-box {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin-top: 10px;
+}
+
+#next-question-btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+  outline: 0;
+  margin-bottom: 10px;
+}
+
+#next-question-btn:hover {
+  color: navy;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+.score-board {
+  border: 3px double blue;
+  margin-top: 20px;
+}
+
+.result-header {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  text-decoration: underline;
+  margin-top: 10px;
+}
+
+.score-board  li {
+  color: blue;
+  font-size: 20px;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  margin-left: 30px;
+}
+
+#log-out-btn {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-weight: bold;
+  border: 2px solid darkblue;
+  outline: 0;
+  margin-bottom: 5px;
+  margin-right: 5px;
+}
+
+#log-out-btn:hover {
+  color: navy;
+  background-color: white;
+  border: 2px solid darkblue;
+}
+
+/* Quiz Component styling completed */
